@@ -1,2 +1,2 @@
-# Unity-2020-By-Example
-Unity 2020 By Example, published by Packt
+# Unity-2020-By-Example-Third-Edition
+Unity 2020 By Example - Third Edition, published by Packt
