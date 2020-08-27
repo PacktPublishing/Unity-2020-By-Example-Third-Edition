@@ -1,0 +1,20 @@
+{
+    "name": "Unity.XR.ARCore.Editor",
+    "references": [
+        "Unity.XR.ARCore",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.ARSubsystems.Editor",
+        "Unity.XR.Management.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.management",
+            "expression": "3.2.0",
+            "define": "USE_XR_PACKAGE_METADATA"
+        }
+    ]
+}
