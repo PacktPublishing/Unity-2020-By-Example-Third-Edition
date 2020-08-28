@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp.dll:
-    - UnityTemplateProjects.SimpleCameraController
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -28,35 +26,27 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector3
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
-    - UnityEngine.Rendering.Volume
-    - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
-    - UnityEngine.Rendering.Universal.Bloom
-    - UnityEngine.Rendering.Universal.ChannelMixer
-    - UnityEngine.Rendering.Universal.ChromaticAberration
-    - UnityEngine.Rendering.Universal.ColorAdjustments
-    - UnityEngine.Rendering.Universal.ColorCurves
-    - UnityEngine.Rendering.Universal.ColorLookup
-    - UnityEngine.Rendering.Universal.DepthOfField
-    - UnityEngine.Rendering.Universal.FilmGrain
     - UnityEngine.Rendering.Universal.ForwardRendererData
-    - UnityEngine.Rendering.Universal.LensDistortion
-    - UnityEngine.Rendering.Universal.LiftGammaGain
-    - UnityEngine.Rendering.Universal.MotionBlur
-    - UnityEngine.Rendering.Universal.PaniniProjection
     - UnityEngine.Rendering.Universal.PostProcessData
-    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
-    - UnityEngine.Rendering.Universal.SplitToning
-    - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
-    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
-    - UnityEngine.Rendering.Universal.Vignette
-    - UnityEngine.Rendering.Universal.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.ARCore.dll:
+    - UnityEngine.XR.ARCore.ARCoreLoader
+    Unity.XR.ARFoundation.dll:
+    - UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature
+    - UnityEngine.XR.ARFoundation.ARCameraBackground
+    - UnityEngine.XR.ARFoundation.ARCameraManager
+    - UnityEngine.XR.ARFoundation.ARInputManager
+    - UnityEngine.XR.ARFoundation.ARPoseDriver
+    - UnityEngine.XR.ARFoundation.ARSession
+    - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.ARKit.Editor.dll:
+    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
     Unity.XR.Management.Editor.dll:
@@ -64,6 +54,14 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -83,7 +81,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/ARScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -92,131 +90,127 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 11862}
     - Class: 114
-      Script: {instanceID: 11848}
+      Script: {instanceID: 11864}
     - Class: 114
-      Script: {instanceID: 11850}
+      Script: {instanceID: 11866}
     - Class: 114
-      Script: {instanceID: 11852}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11854}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 11856}
+      Script: {instanceID: 11872}
     - Class: 114
-      Script: {instanceID: 11948}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 12016}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12144}
+      Script: {instanceID: 12162}
     - Class: 114
-      Script: {instanceID: 12168}
-    - Class: 114
-      Script: {instanceID: 12204}
-    - Class: 114
-      Script: {instanceID: 12350}
+      Script: {instanceID: 12186}
     - Class: 114
       Script: {instanceID: 12372}
     - Class: 114
-      Script: {instanceID: 12398}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 12596}
+      Script: {instanceID: 12624}
     - Class: 114
-      Script: {instanceID: 12964}
+      Script: {instanceID: 13002}
     - Class: 114
-      Script: {instanceID: 13014}
+      Script: {instanceID: 13052}
     - Class: 114
-      Script: {instanceID: 13082}
+      Script: {instanceID: 13120}
     - Class: 114
-      Script: {instanceID: 13370}
+      Script: {instanceID: 13414}
     - Class: 114
-      Script: {instanceID: 13622}
+      Script: {instanceID: 13670}
     - Class: 114
-      Script: {instanceID: 13672}
+      Script: {instanceID: 13722}
     - Class: 114
-      Script: {instanceID: 13742}
+      Script: {instanceID: 13792}
     - Class: 114
-      Script: {instanceID: 13872}
+      Script: {instanceID: 13928}
     - Class: 114
-      Script: {instanceID: 14174}
+      Script: {instanceID: 14266}
     - Class: 114
-      Script: {instanceID: 14210}
+      Script: {instanceID: 14294}
     - Class: 114
-      Script: {instanceID: 14238}
+      Script: {instanceID: 14642}
     - Class: 114
-      Script: {instanceID: 14580}
+      Script: {instanceID: 14698}
     - Class: 114
-      Script: {instanceID: 14650}
+      Script: {instanceID: 14714}
     - Class: 114
-      Script: {instanceID: 14670}
+      Script: {instanceID: 14734}
     - Class: 114
-      Script: {instanceID: 14800}
+      Script: {instanceID: 14866}
     - Class: 114
-      Script: {instanceID: 14838}
+      Script: {instanceID: 14904}
     - Class: 114
-      Script: {instanceID: 14848}
+      Script: {instanceID: 14914}
     - Class: 114
-      Script: {instanceID: 14906}
+      Script: {instanceID: 15074}
     - Class: 114
-      Script: {instanceID: 15212}
+      Script: {instanceID: 15280}
     - Class: 114
-      Script: {instanceID: 15294}
+      Script: {instanceID: 15350}
     - Class: 114
-      Script: {instanceID: 15556}
+      Script: {instanceID: 15364}
     - Class: 114
-      Script: {instanceID: 15762}
+      Script: {instanceID: 15632}
     - Class: 114
-      Script: {instanceID: 15816}
+      Script: {instanceID: 15712}
     - Class: 114
-      Script: {instanceID: 16044}
+      Script: {instanceID: 15842}
     - Class: 114
-      Script: {instanceID: 16048}
+      Script: {instanceID: 15898}
     - Class: 114
-      Script: {instanceID: 16106}
+      Script: {instanceID: 15974}
     - Class: 114
-      Script: {instanceID: 16222}
+      Script: {instanceID: 16126}
     - Class: 114
-      Script: {instanceID: 16240}
+      Script: {instanceID: 16130}
     - Class: 114
-      Script: {instanceID: 16248}
+      Script: {instanceID: 16190}
+    - Class: 114
+      Script: {instanceID: 16324}
+    - Class: 114
+      Script: {instanceID: 16332}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 205
-      Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 215
-      Script: {instanceID: 0}
-    - Class: 220
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -225,8 +219,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 258
-      Script: {instanceID: 0}
-    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -621,6 +613,12 @@ ScriptsOnlyBuild:
     className: FilmGrain
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoader
+  - hash:
+      serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -679,6 +677,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoaderSettings
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1267,19 +1271,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.ARCore.dll
-    namespaceName: UnityEngine.XR.ARCore
-    className: ARCoreLoader
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.ARCore.dll
-    namespaceName: UnityEngine.XR.ARCore
-    className: ARCoreLoaderSettings
   platform: 9
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/ARScene.unity
   playerPath: /Users/robertwells/Desktop/temp_ar_build
