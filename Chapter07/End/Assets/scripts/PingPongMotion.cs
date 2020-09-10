@@ -11,7 +11,7 @@ public class PingPongMotion : MonoBehaviour
 	//Original position
 	private Vector3 OrigPos = Vector3.zero;
 
-	void Awake ()
+	void Start()
 	{
 		//Copy original position
 		OrigPos = transform.position;

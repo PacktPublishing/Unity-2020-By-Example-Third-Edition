@@ -12,13 +12,13 @@ public class PingPongMotion : MonoBehaviour
 	//Speed
 	public float Distance = 3f;
 
-	void Awake ()
+	void Start()
 	{
 		//Copy original position
 		OrigPos = transform.position;
 	}
 
-	void Update () 
+	void Update() 
 	{
 		//Update platform position with ping pong
 		transform.position = OrigPos + MoveAxes * Mathf.PingPong(Time.time, Distance);
