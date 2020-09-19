@@ -6,7 +6,7 @@ public class FSM : MonoBehaviour
 
     private IFSMState[] StatePool;
     private IFSMState CurrentState;
-    private readonly IFSMState EmptyAction = new EmptyAction();
+    private readonly IFSMState EmptyAction = new EmptyState();
 
     void Awake()
     {
