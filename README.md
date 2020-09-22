@@ -34,14 +34,14 @@ if (test expression)
 **Following is what you need for this book:**
 If you are a game developer or programmer new to Unity and want to get up and running with the game engine in a hands-on way, this book is for you. Unity developers looking to work on practical projects to explore new features in Unity 2020 will find this book useful. A basic understanding of C# programming is required.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-14).
 
 ### Software and Hardware List
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1        | Unity 2020.1.0f1 or later                   | Windows, Mac OS X, and Linux (Any) |
-| 2        | VR Device (Oculus Rift S)            | Windows, Mac OS X, and Linux (Any) |
+| 1 to 14      | Unity 2020.1.0f1 or later                   | Windows, Mac OS X, and Linux (Any) |
+| 11 & 12      | VR Device (Oculus Rift S)            | Windows, Mac OS X, and Linux (Any) |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781800203389_ColorImages.pdf).
