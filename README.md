@@ -32,7 +32,7 @@ if (test expression)
 ```
 
 **Following is what you need for this book:**
-Copy and paste the Audience section from the EPIC.
+If you are a game developer or programmer new to Unity and want to get up and running with the game engine in a hands-on way, this book is for you. Unity developers looking to work on practical projects to explore new features in Unity 2020 will find this book useful. A basic understanding of C# programming is required.
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
 
