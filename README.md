@@ -9,7 +9,7 @@ This is the code repository for [Unity 2020 By Example - Third Edition](https://
 ## What is this book about?
 The Unity game engine, used by millions of developers around the world, is popular thanks to its features that enable you to create games and 3D apps for desktop and mobile platforms in no time. With Unity 2020, this state-of-the-art game engine introduces enhancements in Unity tooling, editor, and workflow among many other additions.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features: 
 * Learn the fundamentals of game development, including GameObjects, components, and scenes
 * Develop a variety of games in C# and explore the brand new sprite shaping tool for Unity 3D and 2D games
 * Handle player controls and input functionality for your Unity games
