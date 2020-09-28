@@ -4,7 +4,7 @@
 
 This is the code repository for [Unity 2020 By Example - Third Edition](https://www.packtpub.com/product/unity-2020-by-example-third-edition/9781800203389), published by Packt.
 
-**Learn Unity by building 3D games and augmented reality and virtual reality apps from scratch**
+**A projects-based guide to building 2D, 3D, augmented reality, and virtual reality games from scratch**
 
 ## What is this book about?
 The Unity game engine, used by millions of developers around the world, is popular thanks to its features that enable you to create games and 3D apps for desktop and mobile platforms in no time. With Unity 2020, this state-of-the-art game engine introduces enhancements in Unity tooling, editor, and workflow among many other additions.
@@ -15,6 +15,7 @@ This book covers the following exciting features:
 * Handle player controls and input functionality for your Unity games
 * Implement AI techniques such as pathfinding, finite state machines, and machine learning using Unity ML-Agents
 * Create virtual and augmented reality games using UnityVR and ARFoundation
+* Explore the cutting-edge features of Unity 2020 and how they can be used to improve your games
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1800203381) today!
 
