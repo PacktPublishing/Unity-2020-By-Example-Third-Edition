@@ -53,6 +53,15 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. 
 [Click here to download it](https://static.packt-cdn.com/downloads/9781800203389_ColorImages.pdf).
 
+### Errata
+* **In Chapter 1, section ‘Introducing the first game’.** This paragraph:
+
+**"The controls will use the industry-standard WASD keyboard setup, where W moves forward, A and S move left and right, and D walks backward. Head movement is controlled using the mouse, and coins are collected by colliding with them.”**
+
+_Should be changed/replaced to:_
+
+**“The controls will use the industry-standard WASD keyboard setup, where W moves forward, A and D move left and right, and S walks backward. Head movement is controlled using the mouse, and coins are collected by colliding with them.”**
+
 
 ### Related products <Other books you may enjoy>
 * Hands-On Unity 2020 Game Development [[Packt]](https://www.packtpub.com/product/hands-on-unity-2020-game-development/9781838642006) [[Amazon]](https://www.amazon.com/dp/1838642005)
