@@ -54,13 +54,19 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 [Click here to download it](https://static.packt-cdn.com/downloads/9781800203389_ColorImages.pdf).
 
 ### Errata
-* **In Chapter 1, section ‘Introducing the first game’.** This paragraph:
+* **In Chapter 1, ‘Introducing the first game’ section.** This paragraph:
 
 **"The controls will use the industry-standard WASD keyboard setup, where W moves forward, A and S move left and right, and D walks backward. Head movement is controlled using the mouse, and coins are collected by colliding with them.”**
 
 _Should be changed/replaced to:_
 
 **“The controls will use the industry-standard WASD keyboard setup, where W moves forward, A and D move left and right, and S walks backward. Head movement is controlled using the mouse, and coins are collected by colliding with them.”**
+
+* **Page 132, "Adding Component" section:**
+Please note that the Rotation around the X axis must also be frozen.
+
+* **Pages 145 & 146, "Creating a Health component" section**:
+Please note that the first letter of "Get" or "Set" should be small and not capital.
 
 
 ### Related products <Other books you may enjoy>
