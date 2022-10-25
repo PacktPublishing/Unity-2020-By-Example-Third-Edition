@@ -72,3 +72,7 @@ Please note that the first letter of "Get" or "Set" should be small and not capi
 ## Get to Know the Author
 **Robert Wells**
 is a senior game developer at Hopster. Robert is a knowledgeable game developer with 10 years experience in all aspects of game development, with expertise in Unity and C#. Robert has worked on a number of educational games for iOS and Android, which have been featured by Apple. He has released 10+ assets on the Unity Asset Store. He writes tutorials and articles about games development on his website
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800203389">https://packt.link/free-ebook/9781800203389 </a> </p>
